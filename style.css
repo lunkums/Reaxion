@@ -83,3 +83,8 @@ input[type="text"] {
   flex: auto;
   width: 100%;
 }
+
+.leaderboard {
+  font-size: x-large;
+  color: #0e0b16;
+}
