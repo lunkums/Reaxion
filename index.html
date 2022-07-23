@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Reaxion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-half">
+        <h1>Reaxion</h1>
+        <h3>React as fast you can.</h3>
+        <div class="play-area">
+            <p id="prompt">Click the form below and type the key when it appears on screen.</p>
+            <form class="text-area" autocomplete="off" onsubmit="return false;">
+                <label for="text-area">Input:</label>
+                <input type="text" onfocus="this.value=''" id="text-area" name="text-area">
+            </form>
+            <form onsubmit="return false;">
+                <input type="submit" id="start" value="Start [Press R]">
+            </form>
+        </div>
+    </div>
+    <div class="bottom-half"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
